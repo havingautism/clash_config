@@ -1,8 +1,4 @@
-好的！以下是为你的两个 Clash 配置文件编写的 GitHub 介绍页内容，包含了详细的说明和使用指南。🎉
-
----
-
-# Clash 配置文件介绍
+配置文件介绍
 
 本项目包含两个 Clash 配置文件，分别为 `clash_config_lite.yaml` 和 `clash_config_ultra.yaml`，适用于不同的使用场景和需求。以下是每个配置文件的详细介绍。
 
