@@ -1,3 +1,10 @@
+#==========================================
+# @ConfigName        havingautism自用Clash配置文件Lite版
+# @Author            @havingautism
+# @UpdateTime        2025/04/01 
+# @ClashVerge        https://github.com/clash-verge-rev/clash-verge-rev/releases
+# @Thanks            @blackmatrix7
+#==========================================
 mixed-port: 7890
 socks-port: 7891
 allow-lan: true
