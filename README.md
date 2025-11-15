@@ -38,6 +38,23 @@
 
 ---
 
+## 3. `clash_config_ultra_geosite.yaml` - geosite版配置文件（强烈推荐）
+
+### 特点
+- **功能丰富**：适合PC端手机端用户，提供细致的分流规则和代理组:
+1. 完善TUN和DNS的逻辑，但是一般不建议开启，用系统代理模式就行
+2. 优化geox-url
+3. 优化health-check，补充max-failed-times，timeout，lazy: false的逻辑
+4. 使用GeoSite而不是过时的rule-providers，可以节省大量RAM和检索时间
+
+- **高级 DNS 配置**：新mihamo内核(1.18.10后)引入direct-nameserver，更精细的dns控制，无DNS泄露风险。
+
+
+### 使用说明
+1. 下载 `clash_config_ultra_geosite.yaml` 文件。
+2. 在配置文件中填写自己的机场订阅地址。
+3. 将配置文件导入 Clash 客户端即可使用。
+
 ## 贡献与反馈
 
 如果你有任何建议或问题，欢迎提交 Issue 或 Pull Request。我们非常欢迎你的贡献！🚀
